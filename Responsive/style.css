@@ -1,0 +1,85 @@
+*{box-sizing: border-box;}
+html{
+    scroll-behavior: smooth;
+}
+.navTabs{
+    background-color: pink;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    right: 0%;
+}
+.links{
+    display: inline-block;
+    padding: 1em 3em;
+    color: blue;
+}
+.links:hover{
+    color: lightblue;
+    background-color: lightcoral;
+    font-weight: bolder;
+}
+/*----- INTRO IMAGE -----*/
+.intro{
+    box-shadow: 2px 2px 5px purple;
+    margin: 7em auto;
+    border-radius: 2em;
+    overflow: hidden;
+    width: 60%;
+    position: relative;
+}
+img{
+    width: 100%;
+    display: block;
+}
+.intro_pg{
+    position: absolute;
+    top: 0%;
+    left: 10%;
+    right: 10%;
+    text-align: center;
+    font-size: 2.5em;
+    color: white;
+    font-weight: 900;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+/*----- CARDS -----*/
+.container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.card{
+    width: 29%;
+    box-shadow: 2px 2px 5px red;
+    border-radius: 0.5em;
+    overflow: hidden;
+    margin: 2%;
+    position: relative;
+}
+.cardTitle{
+    padding: 0.5em 1em;
+    color: hotpink;
+}
+.cardIntro{
+    padding: 0.5em 1em;
+    color: blue;
+    margin-bottom: 5em;
+}
+.cardLink{
+    position: absolute;
+    bottom: 0%;
+    background-color: lightseagreen;
+    color: black;
+    display: inline-block;
+    left: 0%;
+    right: 0%;
+    padding: 1em;
+    text-align: center;
+}
+.cardLink:hover{
+    background-color: lightpink;
+    color: black;
+    text-decoration: none;
+    font-weight: bolder;
+}
