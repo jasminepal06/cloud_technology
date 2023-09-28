@@ -45,6 +45,8 @@ img{
 
 }
 /*----- CARDS -----*/
+.title{border-bottom: ridge 1px blue;
+padding-top: 2em;}
 .container{
     display: flex;
     flex-wrap: wrap;
@@ -82,4 +84,10 @@ img{
     color: black;
     text-decoration: none;
     font-weight: bolder;
+}
+/*----- FOOTER -----*/
+.copyrighted{
+    background-color: rgb(219, 201, 118);
+    padding: 1em;
+    text-align: center;
 }
