@@ -1,29 +1,138 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <title>Jasmine Pal</title>
-  </head>
-  <body>
-    <h1 class="display-3 text-info bg-primary text-center" >Jasmine Pal</h1>
-    <p>Use of a mark in <b class="mark">Bootstrap</b> </p>
-    <p>Use <kbd style="background-color: rgb(207, 124, 189);">Ctrl + p </kbd> open the Print dialog box.</p>
-    <p class="blockquote-footer">From wikipedia.org website</p>
-<figure class="p-5">
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+  <title>Jasmine Pal</title>
+</head>
+
+<body>
+  <h1 class="display-3 text-info bg-primary text-center">Jasmine Pal</h1>
+  <p>Use of a mark in <b class="mark">Bootstrap</b> </p>
+  <p>Use <kbd style="background-color: rgb(207, 124, 189);">Ctrl + p </kbd> open the Print dialog box.</p>
+  <p class="blockquote-footer">From wikipedia.org website</p>
+  <figure class="p-5">
     <img src="pexels-lalesh-aldarwish-169976.jpg" alt="Road" width="28%" class="rounded m-3">
     <img src="pexels-lalesh-aldarwish-169976.jpg" alt="Road" width="28%" class="rounded-circle m-3">
     <img src="pexels-lalesh-aldarwish-169976.jpg" alt="Road" width="28%" class="img-thumbnail m-3">
-</figure>
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-  </body>
+  </figure>
+
+  <h2 class="bg-warning text-primary text-center p-3"> Basic List Groups</h2>
+  <h3>Food Shopping</h3>
+  <ul class="list-group m-3">
+    <li class="list-group-item">Apple</li>
+    <li class="list-group-item">Milk</li>
+    <li class="list-group-item active">Cereal</li>
+  </ul>
+  <h2 class="bg-warning text-primary text-center p-3">Dropdown</h2>
+  <div class="dropdown m-4">
+    <button type="button" class="dropdown-toggle btn btn-secondary" data-bs-toggle="dropdown">CUNY Community
+      College</button>
+    <ul class="dropdown-menu">
+      <li class="bg-dark">
+        <h5 class="dropdown-header">Borough of Queens</h5>
+      </li>
+      <li><a href="http://www.qcc.cuny.edu" target="_blank" rel="noopener noreferrer" class="dropdown-item">QCC</a></li>
+      <li><a href="http://www.laguardia.edu" target="_blank" rel="noopener noreferrer"
+          class="dropdown-item">LaGuardia</a></li>
+
+      <li class="bg-dark">
+        <h5 class="dropdown-header">Borough of Manhattan</h5>
+      </li>
+      <li><a href="http://www.bmcc.cuny.edu" target="_blank" rel="noopener noreferrer" class="dropdown-item">BMCC</a>
+      </li>
+
+    </ul>
+  </div>
+
+  <h2 class="bg-warning text-primary text-center p-3">Group dropdown menu</h2>
+  <div class="btn-group">
+    <button type="button" class="btn-danger btn">Home</button>
+    <button type="button" class="btn-danger btn dropdown-toggle" data-bs-toggle="dropdown">CUNY Community
+      College</button>
+    <button type="button" class="btn-danger btn">Bootstrap images</button>
+    <ul class="dropdown-menu">
+      <li class="bg-dark">
+        <h5 class="dropdown-header">Borough of Queens</h5>
+      </li>
+      <li><a href="http://www.qcc.cuny.edu" target="_blank" rel="noopener noreferrer" class="dropdown-item">QCC</a></li>
+      <li><a href="http://www.laguardia.edu" target="_blank" rel="noopener noreferrer"
+          class="dropdown-item">LaGuardia</a></li>
+
+      <li class="bg-dark">
+        <h5 class="dropdown-header">Borough of Manhattan</h5>
+      </li>
+      <li><a href="http://www.bmcc.cuny.edu" target="_blank" rel="noopener noreferrer" class="dropdown-item">BMCC</a>
+      </li>
+
+    </ul>
+  </div>
+
+  <h2 class="bg-warning text-primary text-center p-3">Collapsible</h2>
+  <div class="btn-group m-3">
+    <button type="button" class="btn btn-info" data-bs-toggle="collapse" data-bs-target="#cat">Info about cats</button>
+    <button type="button" class="btn btn-info" data-bs-toggle="collapse" data-bs-target="#cars">Info about cars</button>
+    <button type="button" class="btn btn-info" data-bs-toggle="collapse" data-bs-target="#roses">Info about roses</button>
+    <button type="button" class="btn btn-info" data-bs-toggle="collapse" data-bs-target="#dogs">Info about dogs</button>
+  </div>
+  </div>
+  </div>
+    <div id="cars" class="collapse">
+
+  <p>For over a hundred years, the private car has transformed modern society by providing independence and freedom of
+    mobility. Mobility is becoming more and more important due to ever-increasing distances between home, work,
+    educational institutions, shopping and leisure facilities.</p>
+  <img src="car.jpg" alt="cool car" width="50%" class="mx-auto d-block rounded-circle">
+</div>
+ 
+  <div id="roses" class="collapse">
+  <p>Pink roses typically symbolise admiration, happiness, and love. More subtle than the traditional bold red rose,
+    pink roses are often used to signify a strong friendship or the love between family members. Pink roses can also
+    represent admiration and respect towards someone close to you.</p>
+  <img src="pink roses.jpg" alt="Roses other than red" width="50%" class="mx-auto d-block rounded-circle">
+  </div>
+  
+  
+  <div id="dogs" class="collapse">
+  <p>Jack Russells are very high-energy pups that come in all different colors, including brown and white. Their bodies
+    are predominantly white with tan or dark brown markings, often on their faces.</p>
+  <img src="dog.jpg" alt="Brown and White colored dog" width="50%" class="mx-auto d-block rounded-circle">
+ </div>
+
+  <div id="cat" class="collapse">
+    <p class="p-3"> Pure White Is The Rarest Cat Color And experts say white-coated kitties have a little gene dubbed W
+      to thank for their unique attributes. “White is an interesting lack of pigmentation; it's not a color,” says
+      Teresa Keiger, a Cat Fanciers' Association (CFA) all-breed judge.</p>
+    <img src="cute cat.jpg" alt="cat" width="50%" class="mx-auto d-block rounded circle">
+    <p class="blockquote-footer mt-4">Photo by Peng Louis</p>
+  </div>
+
+
+
+
+  <!-- Optional JavaScript; choose one of the two! -->
+
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+
+  <!-- Option 2: Separate Popper and Bootstrap JS -->
+  <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    -->
+</body>
+
+</html>
+</body>
+
 </html>
