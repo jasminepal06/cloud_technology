@@ -1,0 +1,108 @@
+*{box-sizing: border-box;}
+a {text-decoration: none; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;}
+
+.intro_pg{
+    position: absolute;
+    top: -0%;
+    left: 10%;
+    right: 10%;
+    text-align: center;
+    font-size: 1.7em;
+    color: hotpink;
+    font-weight: 900;
+    font-family: "timesnewroman";
+
+}
+.intro{
+    box-shadow: 2px 2px 5px red;
+    margin: 7em auto;
+    border-radius: 1em;
+    overflow: hidden;
+    position: relative;
+    width: 80%;
+}
+.pg1 {
+    
+    position: relative;
+    transition: color 0.3s ease-in-out, text-shadow 0.3s ease-in-out;
+}
+
+.pg1:hover {
+    color: rgb(209, 132, 64);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+}
+
+.pg1:hover::after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: white;
+    border: 1px solid white;
+    padding: 10px;
+    visibility: visible;
+    opacity: 1;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.pg1::after {
+    content: "";
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s ease-in-out 0.3s, opacity 0.3s ease-in-out;
+}
+.intro:hover{
+    transform: scale(1.2);
+    color: blue;
+    transition: transform 0.3s ease-in-out;
+}
+img{
+    width: 99.99%;
+    display: block;
+}
+
+.img1{
+    width: 46%;
+    margin: 2%;
+}
+.img2{
+    width: 46%;
+    margin: 2%;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.txt{
+    width: 46%;
+    margin: 2%;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', Century Gothic;
+}
+.title{
+    background-color: rgb(241, 151, 186);
+    padding: 2%;
+    margin: 1em;
+}
+.title:hover {
+    transform: scale(1.2);
+    color: blue;
+    transition: transform 0.3s ease-in-out;
+}
+.navTabs{
+    background-color: rgb(198, 139, 228);
+    position:fixed;
+    top: 0%;
+    left: 0%;
+    right: 0%;
+}
+.links{
+    display: inline-block;
+    padding: 1em 3em;
+    color: rgb(88, 0, 183);
+    width: 33%;
+    text-align: center  ;
+}
+.links:hover{
+    color: rgb(86, 138, 190);
+    background-color: rgb(243, 36, 115);
+    font-weight: bolder;
+}
