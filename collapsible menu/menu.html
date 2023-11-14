@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+
+<body>
+
+    <h1 class="bg-primary text-center text-light p-3">Collapsible by Jasmine Pal</h1>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-dark navbar-expand-md bg-dark">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarmenu">Menu
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarmenu">
+            <ul class="navbar-nav">
+                <li class="nav-item"><a href="http://www.qcc.cuny.edu" target="_blank" rel="noopener noreferrer"
+                        class="nav-link">QCC</a></li>
+                <li class="nav-item"><a href="http://www.citytech.cuny.edu" target="_blank" rel="noopener noreferrer"
+                        class="nav-link">NYCCT</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Halloween Sale Alert -->
+    <div class="alert alert-secondary alert-dismissible">
+        <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+        <strong>Halloween Sale!</strong> Take <strong class="text-danger display-5">40%</strong> OFF with an order of
+        more than $15.99
+    </div>
+
+    <!-- Class Activity Section -->
+    <h1 class="bg-warning text-center text-light p-3">Class Activity</h1>
+
+    <!-- Bath & Body Works Sale Alert -->
+    <div class="alert alert-info alert-dismissible text-center mt-5 mx-5">
+        <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+        <strong>Bath & Body Works Sale!</strong> Get <a href="https://www.bathandbodyworks.com/" target="_blank"
+            rel="noopener noreferrer"><strong class="text-danger display-5 p-3">40%</strong></a> off today
+    </div>
+
+    <!-- Bath & Body Works Navbar -->
+    <nav class="navbar navbar-dark navbar-expand-md bg-warning">
+        <div class="container-fluid">
+            <a href="https://www.bathandbodyworks.com/" target="_blank" rel="noopener noreferrer" class="navbar-brand">
+                <img src="images/Bath & Bodyworks.jpeg" width="100%" class="m-3" alt="Bath & Body Works">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#bbwNavMenu">Menu
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="bbwNavMenu">
+                <ul class="navbar-nav justify-content-center">
+                    <li class="nav-item"><strong></strong></li>
+                    <li class="nav-item"><strong><a
+                                href="https://www.bathandbodyworks.com/p/champagne-toast-gift-bag-set-025150095.html"
+                                target="_blank" rel="noopener noreferrer" class="nav-link text-success">Champagne Toast
+                                Gift Bag Set</a></strong></li>
+                    <li class="nav-item"><strong><a
+                                href="https://www.bathandbodyworks.com/p/in-the-stars-gift-bag-set-025142595.html"
+                                target="_blank" rel="noopener noreferrer" class="nav-link text-info">In the Stars Gift
+                                Bag Set</a></strong></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Image Section with Buttons -->
+    <section style="position: relative;">
+        <img src="Bath & Bodyworks.jpg" width="100%" alt="Bath & Body Works">
+        <div>
+            <a type="button" class="btn btn-success m-3 BBW" href="#Champagne">Champagne Toast Set</a>
+            <a type="button" class="btn btn-success m-3 BBW" href="#Inthestars">In the Stars Set</a>
+        </div>
+    </section>
+
+    <!-- Champagne Toast Section -->
+    <section aria-hidden="true">
+        <div class="m-5 container-fluid">
+            <div class="row">
+                <div class="col-md-4 col-sm-11 bg-light p-3 m-4 rounded">
+                    <img src="images/champagne toast.jpeg" width="100%" alt="Champagne Toast">
+                </div>
+                <div class="col-md-6 col-sm-11 p-5 m-5 text-dark rounded">
+                    <h2 class="display-5 p-3 m-4" id="Champagne"><strong><u>Champagne Toast Gift Set</u></strong></h2>
+                    <p class="text-center p-3 m-4">The Champagne Toast Gift Bag Set from Bath and Body Works is a
+                        fabulous choice. It features their popular Champagne Toast fragrance, which has notes of bubbly
+                        champagne, juicy nectarine, and blackcurrant. The set typically includes a luxurious body
+                        lotion, shower gel, and a fragrant mist. It's a perfect way to pamper yourself or to give as a
+                        special gift. The Champagne Toast scent is sophisticated and celebratory, making it ideal for
+                        any occasion. So go ahead and indulge in the delightful aroma of the Champagne Toast Gift Bag
+                        Set from Bath and Body Works!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- In the Stars Section -->
+    <section aria-hidden="true">
+        <div class="m-5 container-fluid">
+            <div class="row">
+                <div class="col-md-4 col-sm-11 bg-light p-3 m-4 rounded">
+                    <img src="images/In the stars.jpeg" width="100%" alt="In the Stars">
+                </div>
+                <div class="col-md-6 col-sm-11 p-5 m-5 text-dark rounded">
+                    <h2 class="display-5 p-3 m-4" id="Inthestars"><strong><u>In the Stars Gift Bag Set</u></strong></h2>
+                    <p class="text-center p-3 m-4">The "In the Stars" Gift Bag Set from Bath and Body Works is
+                        absolutely amazing. It features their mesmerizing "In the Stars" fragrance, which is a blend of
+                        starflower, sandalwood, and white agarwood. The set typically includes a luxurious body lotion,
+                        shower gel, and a fragrant mist. The "In the Stars" scent is a celestial and dreamy fragrance
+                        that will make you feel like you're surrounded by stardust. It's perfect for adding a touch of
+                        enchantment to your daily routine or for gifting to someone special. So go ahead and let the "In
+                        the Stars" Gift Bag Set from Bath and Body Works transport you to a magical realm!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="text-center p-4" style="background-color: rgba(234, 104, 191, 0.05);">
+            Collapsible Menu
+            <a href="#" class="text-reset fw-bold">Bootstrap by Jasmine Pal</a>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>

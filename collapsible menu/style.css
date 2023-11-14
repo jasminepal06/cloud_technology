@@ -1,0 +1,19 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  .BBW {
+    position: fixed;
+    left: 20%;
+    bottom: 5%;
+  }
+  
+  .BBB {
+    position: fixed;
+    right: 20%;
+    bottom: 5%;
+  }  
