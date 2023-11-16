@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jasmine Pal</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <nav class="navbar navbar-light navbar-expand-md">
+        <a href="http://www.qcc.cuny.edu" target="_blank" rel="noopener noreferrer" class="navbar-brand">
+            <img src="imgs\image designer.png" class="m-3" alt="Logo">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarmenu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="title">
+            <a>
+                <strong>Designer Delights</strong>: Uncover the <br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Finest Bags
+                from Top Brands
+            </a>
+        </div>
+
+        <section id="navbarmenu" class="collapse navbar-collapse">
+            <nav class="navbar-nav">
+                <a href="http://www.qcc.cuny.edu" target="_blank" rel="noopener noreferrer" class="nav-item">
+                    <a href="http://www.qcc.cuny.edu" target="_blank" rel="noopener noreferrer"
+                        class="nav-button">Home</a>
+                </a>
+                <a href="http://www.citytech.cuny.edu" target="_blank" rel="noopener noreferrer" class="nav-item">
+                    <a href="http://www.citytech.cuny.edu" target="_blank" rel="noopener noreferrer" class="nav-button">
+                        <strong>Explore</strong>
+                    </a>
+                </a>
+                <a href="http://www.citytech.cuny.edu" target="_blank" rel="noopener noreferrer" class="nav-item">
+                    <a href="http://www.citytech.cuny.edu" target="_blank" rel="noopener noreferrer"
+                        class="nav-button">Contact</a>
+                </a>
+                <a href="https://www.michaelkors.com/cart/" target="_blank" rel="noopener noreferrer" class="nav-item">
+                    <a href="https://www.michaelkors.com/cart/" target="_blank" rel="noopener noreferrer"
+                        class="nav-button">Cart</a>
+                </a>
+            </nav>
+            <nav class="navbar-kores">
+                <a href="https://www.michaelkors.com/michael-kors-collection.html">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </a>
+                <a href="https://www.michaelkors.com/cart/#wishlist-anchor">
+                    <i class="fa-regular fa-heart"></i>
+                </a>
+                <a href="https://www.michaelkors.com/login/">
+                    <i class="fa-regular fa-user"></i>
+                </a>
+                <a href="https://www.michaelkors.com/cart/">
+                    <i class="fa-solid fa-bag-shopping"></i>
+                </a>
+            </nav>
+        </section>
+    </nav>
+
+    <div class="alert alert-info alert-dismissible text-center"
+        style="background-color: rgba(176, 140, 108, 0.8); color: white;">
+        ENJOY FREE GROUND SHIPPING ON ORDERS OF $50 OR MORE, OR JOIN THE DESIGNER DELIGHTS MEMBERSHIP FOR FREE SHIPPING ON EVERY ORDER, EVERY
+        DAY!
+        <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+    </div>
+
+    <section class="carousel slide " data-bs-ride="carousel" style="width: 60%; margin:auto;" id="slideshow">
+        <div class="carousel-inner">
+            <div class="carousel-item active"><img src="imgs/michael kors handbag.jpeg" width="100%">
+                <h2 class="carousel-caption">Michael Kors Designer Handbag</h2>
+            </div>
+            <div class="carousel-item"><img src="imgs/coach handbag.webp" width="100%">
+                <h2 class="carousel-caption" style="color: black;">Coach Designer Handbag</h2>
+            </div>
+            <div class="carousel-item"><img src="imgs/chanel handbag.jpeg" width="100%">
+                <h2 class="carousel-caption" style="color: black;">Chanel Designer Handbag</h2>
+            </div>
+            <div class="carousel-item"><img src="imgs/louis-vuitton-handbag.png" width="100%">
+                <h2 class="carousel-caption" style="color: black;">Louis Vuitton Designer Handbag</h2>
+            </div>
+            <div class="carousel-item"><img src="imgs/kate spade handbag.jpeg" width="100%">
+                <h2 class="carousel-caption" style="color: white;">Kate Spade Designer Handbag</h2>
+            </div>
+        </div>
+
+        <button class="carousel-control-prev" type="button" data-bs-slide="prev" data-bs-target="#slideshow">
+            <span class="carousel-control-prev-icon bg-danger" aria-hidden="true"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-slide="next" data-bs-target="#slideshow">
+            <span class="carousel-control-next-icon bg-danger" aria-hidden="true"></span>
+        </button>
+
+
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#slideshow" data-bs-slide-to="0" class="active" aria-current="true"
+                aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#slideshow" data-bs-slide-to="1" class="active" aria-current="true"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#slideshow" data-bs-slide-to="2" class="active" aria-current="true"
+                aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#slideshow" data-bs-slide-to="3" class="active" aria-current="true"
+                aria-label="Slide 4"></button>
+            <button type="button" data-bs-target="#slideshow" data-bs-slide-to="4" class="active" aria-current="true"
+                aria-label="Slide 5"></button>
+        </div>
+
+    </section>
+
+
+</body>
+
+</html>
