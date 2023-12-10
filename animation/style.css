@@ -60,3 +60,32 @@ color: rgb(255, 0, 13);
     color: chocolate;
     text-shadow: 1px 1px 3px whitesmoke;
 }
+/*----- CLASS ACTIVITY -----*/
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.card2{
+    width: 22%;
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 1em; 
+    transition: ease 300ms;
+}
+.card2:hover{
+    box-shadow: 0px 0px 5px 1px rgb(255, 0, 0);
+    transform: scale(0.95);
+}
+.cardMsg2{
+    position: absolute;
+    top: 2%;
+    left: 4%;
+    right: 4%;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.919);
+}
+.cardMsg2:hover{
+    color: cyan;
+}
